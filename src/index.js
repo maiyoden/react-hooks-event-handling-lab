@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import Keypad from './components/Keypad';
-import EyesOnMe from './components/EyesOnMe';
+import QuestionList from './components/QuestionList';
 
 ReactDOM.render(
-  <div>
-    <Keypad />
-    <EyesOnMe />
-  </div>,
+  <React.StrictMode>
+    <QuestionList />
+  </React.StrictMode>,
   document.getElementById('root')
 );
+
